@@ -1,0 +1,22 @@
+body {
+    background-color: #0f0f0f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.btn {
+    padding: 20px 80px;
+    border: none;
+    border-radius: 10%;
+    transition: box-shadow .3s ease-in;
+}
+
+.btn:hover {
+    background: #ff96da;
+    box-shadow: 0 0 5px #ff96da, 0 0 25px #ff96da, 0 0 50px #ff96da, 0 0 200px #ff96da;
+    cursor: pointer;
+}
